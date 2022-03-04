@@ -16,9 +16,11 @@ int main()
 {
     int i, j;
     cin>>i>>j;
-    if(i<<2 > j){
-        cout<<i<<" "<<j;
-    }
+//  a=i*2^2
+    int a = i<<2 ;
+//  b=i/2*2
+    int b = i>>2 ;
+    cout<<a<<" "<<b<<" "<<sizeof(i)<<
     return 0;
 }
 
