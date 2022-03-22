@@ -5,7 +5,6 @@ Input :  5
 Output : 9 found at index 3
 */
 int Linearsearch(int n,int arr[],int k){
-     bool flag = 0;
     for(int i =0;i<n;i++){
         if(arr[i]==k){
             return i;
